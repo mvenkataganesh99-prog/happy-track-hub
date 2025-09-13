@@ -47,6 +47,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        wellness: {
+          primary: "hsl(var(--wellness-primary))",
+          secondary: "hsl(var(--wellness-secondary))",
+          accent: "hsl(var(--wellness-accent))",
+          calm: "hsl(var(--wellness-calm))",
+          focus: "hsl(var(--wellness-focus))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -62,6 +69,18 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        'gradient-wellness': 'var(--gradient-wellness)',
+        'gradient-calm': 'var(--gradient-calm)',
+        'gradient-hero': 'var(--gradient-hero)',
+      },
+      boxShadow: {
+        'wellness': 'var(--shadow-wellness)',
+        'card': 'var(--shadow-card)',
+      },
+      transitionTimingFunction: {
+        'wellness': 'var(--transition-wellness)',
       },
       keyframes: {
         "accordion-down": {
